@@ -1,0 +1,98 @@
+body {
+  background: pink;
+  font-family: arial;
+  text-align: center;
+}
+h1 {
+  color: green;
+  font-size: 32px;
+  background: pink;
+  font-family: 'Pacifico', cursive;
+}
+h2, h3, h4, h5, h6 {
+  font-size: 28px;
+  background: pink;
+  font-family: 'Pacifico', cursive;
+}
+
+p, ul, ol {
+  font-size: 20px;
+}
+
+ul, ol {
+  text-align: left;
+}
+
+h1 {
+  color: #CD4C94;
+  font-size: 32px;
+}
+img {
+  width: 300px;
+  height: 300px;
+  object-fit: cover;
+}
+a:hover {
+  color: brown;
+}
+
+a, a:hover {
+  text-decoration: none;
+}
+div {
+ background: #893062;
+}
+.fond-rose{
+  background: #F5BAE9;
+  border: 5px solid black;  
+  border-radius: 30px;
+  /*margin: 50px;*/
+  padding: 40px;
+  box-shadow: 3px 3px 10px black;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: #F5BAE9;
+  font-family: 'Pacifico', cursive;
+}
+
+.links {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.link {
+  margin: 10px 30px;
+  color: #040000;
+}
+
+.link:hover {
+  color: #F1CAED;
+}
+.line-transparent {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.line-light {
+  height: 2px;
+  width: 10%;
+  background: #9E2B88;
+}
+
+.line-medium {
+  height: 5px;
+  width: 30%;
+  background: #C86472;
+}
+
+.line-hard {
+  height: 5px;
+  width: 50%;
+  background: #9F3442;
+}
